@@ -7,10 +7,7 @@
 }
 
 body{
-    height: 100%;
-}
-
-body{
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,18 +16,16 @@ body{
     background-color: hsl(212, 45%, 89%);
 }
 
-.contenedor{
-    align-items: center;
-    justify-content: center;
+.main{
+    max-width: 20rem;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 5px;
-    width: 375px;
+    border-radius: 5%;
+    padding: 1rem;
     
 }
 img{
-    border-radius: 5px;
-    margin: 10px;
-    width: 95%;
+    border-radius: 5%;
+    max-width: 100%;
 }
 
 .attribution{
@@ -41,19 +36,23 @@ img{
     color: hsl(228, 45%, 44%); 
 }
 
-h2 {
+h1 {
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
-    padding: 10px 50px;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 
-h4{
+p{
     color: hsl(212, 45%, 89%);
+    font-size: 0.9375rem;
     font-weight: 400;
     text-align: center;
-    padding: 10px 50px 30px;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 
 @media(min-width: 500px){
