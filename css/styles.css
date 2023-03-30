@@ -43,10 +43,11 @@ h1 {
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
+    color: hsl(218, 44%, 22%);
 }
 
 p{
-    color: hsl(212, 45%, 89%);
+    color: hsl(212, 15%, 55%);
     font-size: 0.9375rem;
     font-weight: 400;
     text-align: center;
